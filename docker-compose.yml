@@ -3,7 +3,6 @@ services:
   web:
     build: web
     depends_on:
-      - code
       - db
     expose:
       - "80"
