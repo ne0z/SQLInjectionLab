@@ -11,7 +11,7 @@ services:
     volumes:
       - ./code/sqli-labs:/var/www/html
     ports:
-      - "8080:80"
+      - "31334:80"
   db:
     image: mysql:5.7
     expose:
